@@ -105,12 +105,12 @@ Tests automatisés de réponse
 Créer une branche :
 
 bash
-Copy
+
 git checkout -b feature/nouvelle-fonctionnalite
 Après modifications :
 
 bash
-Copy
+
 mvn test # Exécuter les tests
 git commit -m "feat: ajout endpoint utilisateur"
 git push origin feature/nouvelle-fonctionnalite
@@ -122,7 +122,7 @@ Nettoyer le cache Maven : mvn clean install
 
 Problèmes de base de données
 log
-Copy
+
 Connection refused: Check PostgreSQL credentials
 Valider :
 
@@ -149,7 +149,7 @@ Build : Maven
 📄 Licence
 MIT License - Voir LICENSE
 
-Copy
+
 
 Ce README inclut :
 - Des instructions claires pour le setup local
